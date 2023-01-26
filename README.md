@@ -1,7 +1,11 @@
-This project is about a theoretical couple
+This project demonstrates a simple multithreaded application.
+
+It revolves around a theoretical couple
 
 Given the opening balance for the couple and two files containing the transactions for the husband and the wife,perform the transactions contained in the files on the opening balance.
 If a withdrawal can't be successful due to insufficient balance, display 'Transaction declined'
+
+The husband's transactions runs in the main thread whiles the wife's transaction runs in a separate thread
 
 The program assumes that the first file is the husband's file and the second file is that of the wife's
 
